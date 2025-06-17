@@ -1,0 +1,54 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# ASP.NET Core secrets
+secrets.json
+
+# Configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Publish output
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Rider / JetBrains
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# Backup files
+*.bak
+
+# Node
+node_modules/
+npm-debug.log
+
+# EF Migrations metadata
+Migrations/
+
+# Ignore Recycle Bin from OneDrive/Windows
+$RECYCLE.BIN/
+*.~lock.*
+
+# Optional:
+*.http
+*.vscode/
